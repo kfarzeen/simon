@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.boxcont{
+    width:500px;
+    height:500px;
+   
+   
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+.box{
+    width:200px;
+    height:200px;
+    border:10px solid black;
+    border-radius: 30%;
+    margin:3px;
+}
+#pink{
+    background-color:pink;
+}
+#blue{
+    background-color: blue;
+}
+#blueviolet{
+    background-color: blueviolet;
+}
+#brown{
+    background-color: brown;
+}
+.flash {
+    background-color: white !important;
+    
+}
+.userfl{
+    background-color: green !important;
+}
